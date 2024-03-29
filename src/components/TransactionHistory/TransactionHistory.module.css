@@ -1,0 +1,41 @@
+.transactions {
+  display: flex;
+  flex-direction: column;
+  width: 480px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 16px;
+}
+
+.tr {
+  display: flex;
+  flex-direction: row;
+}
+
+.th {
+  width: 157px;
+  padding: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 1px solid gray;
+  color: white;
+  background-color: blue;
+}
+
+.tbody {
+  width: 480px;
+}
+.trElements {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: wheat;
+}
+.td {
+  width: 158px;
+  padding: 0;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+  color: black;
+  border: 1px solid gray;
+}
